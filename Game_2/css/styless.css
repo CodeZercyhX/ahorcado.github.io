@@ -1,0 +1,93 @@
+#ahorcado-container {
+    position: relative;
+    width: 150px;
+    height: 300px;
+    margin: 0 auto 20px;
+}
+
+#base, #poste, #viga, #cuerda, #cabeza, #cuerpo, #brazoIzquierdo, #brazoDerecho, #piernaIzquierda, #piernaDerecha {
+    background-color: black;
+    position: absolute;
+}
+
+#base {
+    width: 120px;
+    height: 10px;
+    bottom: 0;
+    left: 15px;
+}
+
+#poste {
+    width: 10px;
+    height: 250px;
+    bottom: 10px;
+    left: 50px;
+}
+
+#viga {
+    width: 100px;
+    height: 10px;
+    top: 0;
+    left: 50px;
+}
+
+#cuerda {
+    width: 2px;
+    height: 30px;
+    top: 10px;
+    left: 140px;
+}
+
+#cabeza {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    top: 40px;
+    left: 125px;
+    display: none;
+}
+
+#cuerpo {
+    width: 2px;
+    height: 70px;
+    top: 70px;
+    left: 140px;
+    display: none;
+}
+
+#brazoIzquierdo {
+    width: 50px;
+    height: 2px;
+    top: 90px;
+    left: 90px;
+    transform: rotate(45deg);
+    display: none;
+}
+
+#brazoDerecho {
+    width: 50px;
+    height: 2px;
+    top: 90px;
+    left: 140px;
+    transform: rotate(-45deg);
+    display: none;
+}
+
+#piernaIzquierda {
+    width: 50px;
+    height: 2px;
+    top: 140px;
+    left: 90px;
+    transform: rotate(-45deg);
+    display: none;
+}
+
+#piernaDerecha {
+    width: 50px;
+    height: 2px;
+    top: 140px;
+    left: 140px;
+    transform: rotate(45deg);
+    display: none;
+}
